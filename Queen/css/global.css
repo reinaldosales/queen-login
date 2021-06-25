@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    --bg-gradient: radial-gradient(57.92% 114.53% at 101.63% 50%, #3C255D 0%, #6F42A9 100%), #FFFFFF;
+    --bg-button: linear-gradient(212.69deg, #6F42A9 -13.97%, #3C255D 143.38%);
+    --violet: #6F42A9;
+    --white: #FFFFFF;
+    --border: #E8E8E8;
+
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    background: var(--bg-gradient);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+    height: 100vh;
+    margin: 0 auto;
+    background: url('../assets/pattern-bg-home.svg') center;
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+button.button{
+    width: 23rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+    padding: 1.7rem 6.5rem;
+    background: var(--bg-button);
+    color: var(--white);
+    text-transform: uppercase;
+    border-radius: 1rem;
+    box-shadow: 0px 12px 5px -5px rgba(60, 37, 93, 0.24);
+}
+
+button.button:hover{
+    filter: brightness(1.2);
+    transition: .2s;
+}
+
+.content .card-form form > p{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+

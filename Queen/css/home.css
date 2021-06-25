@@ -1,0 +1,74 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .card-form{
+    text-align: center;
+    background: var(--white);
+    border-radius: 1rem;
+    padding: 4.6rem 4.3rem;
+}
+
+.content .card-form .logo{
+    margin-bottom: 10rem;
+}
+
+.content .card-form form .username{
+    margin-bottom: 3.5rem;
+}
+
+.content .card-form form input{
+    width: 36.4rem;
+    background: none;
+    border-bottom: .2rem solid var(--border);
+    outline: none;
+    border-radius: 0;
+    font-size: 1.8rem;
+    padding: 1.3rem;
+}
+
+.content .card-form form input::placeholder{
+    color: var(--border);
+}
+
+.forgot-password{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.forgot-password > a{
+    font-size: 1.4rem;
+    color: var(--violet);
+}
+
+.content .card-form form button{
+    margin-top: 3.6rem;
+    margin-bottom: 2.5rem;
+}
+
+.content .card-form form > p{
+    margin-bottom: 2.8rem;
+}
+
+/* Social Icons */
+
+.sign{
+    display: flex;
+    justify-content: center;
+}
+
+.sign > a{
+    margin-right: 2.7rem;
+}
+
+.sign > a:hover{
+    transform: scale(1.5);
+    transition: .2s;
+}
+
+.sign > a:last-child{
+    margin-right: 0;
+}
